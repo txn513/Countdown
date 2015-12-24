@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时效果</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="setDate">
+            <form>
+                <input type="text" id="inputYear" >
+                <label for="inputYear">年</label>
+                <input type="text" id="inputMonth" >
+                <label for="inputmonth">月</label>
+                <input type="text" id="inputDay" >
+                <label for="inputday">日</label>
+                <br />
+                <input type="button" id="set" value="开始" >
+                <input type="reset" id="reset" value="重置" >
+            </form>
+        </div>
+
+        <div id="date" class="output">0<span>天 </span>0<span>小时 </span>0<span>分钟 </span>0<span>秒 </span></div>
+    </div>
+
+
+    <script src="countdown.js"></script>
+</body>
+</html>

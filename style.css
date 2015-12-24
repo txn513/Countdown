@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+input {
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	text-align: center;
+}
+label {
+	color: white;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #CCCCCC;
+}
+
+.wrap {
+	width: 300px;
+	height: 280px;
+	margin: 100px auto;
+	background: #BC8F8F;
+	padding: 30px 10px;
+	border-radius: 10px;
+	box-shadow: 3px 4px 3px #888;
+	text-align: center;
+}
+
+.wrap .setDate{
+	margin-bottom: 30px;
+}
+#inputYear,#inputMonth,#inputDay {
+	width: 40px;
+	height: 30px;
+	padding: 0 5px;
+	margin-bottom: 30px;
+	box-shadow: inset 1px 2px 1px #888;
+}
+#set,#reset {
+	width: 50px;
+	height: 30px;
+	background: #EEE0E5;
+	box-shadow: 1px 2px 1px #888;
+}
+
+#set:hover,#reset:hover {
+	background: #EED5D2;
+}
+#set:active,#reset:active {
+	background: #EECBAD;
+	box-shadow: none;
+}
+
+#reset {
+	margin-left: 20px;
+}
+.output {
+	font-size: 26px;
+	color: #fff;
+}
+.output span {
+	font-size: 12px;
+	color: #000;
+}
